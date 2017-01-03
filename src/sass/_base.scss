@@ -1,5 +1,5 @@
 nav {
-	width: 65vw;
+	width: 66vw;
 	background-color: $color-principal-km;
 	box-shadow: none;
 
@@ -21,6 +21,7 @@ nav {
 .row .col {
 		padding: 0;
 }
+
 
 .img-km {
 	margin-left: $marginleft-km;
@@ -87,4 +88,27 @@ nav {
 /* Position the "next button" to the right */
 .next {
   right: 45px;
+}
+
+// scroll 
+.bar{  
+    overflow-y: scroll;
+    height: 700px; 
+}
+
+hr {
+	color: #F0F0F0;
+	margin-top: 60px;
+}
+
+li {
+	border: 1px solid #DBD9D9;
+}
+
+ul {
+	margin-left: 50px;
+}
+
+.pagination li.active a {
+    color: $color-principal-km;
 }
